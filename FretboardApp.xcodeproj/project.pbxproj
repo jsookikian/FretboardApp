@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7624B491C991F8400A4485C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7624B481C991F8400A4485C /* AppDelegate.swift */; };
+		A7624B4B1C991F8400A4485C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7624B4A1C991F8400A4485C /* ViewController.swift */; };
+		A7624B4E1C991F8400A4485C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7624B4C1C991F8400A4485C /* Main.storyboard */; };
+		A7624B501C991F8400A4485C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7624B4F1C991F8400A4485C /* Assets.xcassets */; };
+		A7624B531C991F8400A4485C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7624B511C991F8400A4485C /* LaunchScreen.storyboard */; };
+		A7624B5E1C991F8400A4485C /* FretboardAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7624B5D1C991F8400A4485C /* FretboardAppTests.swift */; };
+		A7624B691C991F8400A4485C /* FretboardAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7624B681C991F8400A4485C /* FretboardAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7624B5A1C991F8400A4485C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7624B3D1C991F8400A4485C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7624B441C991F8400A4485C;
+			remoteInfo = FretboardApp;
+		};
+		A7624B651C991F8400A4485C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7624B3D1C991F8400A4485C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7624B441C991F8400A4485C;
+			remoteInfo = FretboardApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7624B451C991F8400A4485C /* FretboardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FretboardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7624B481C991F8400A4485C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7624B4A1C991F8400A4485C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7624B4D1C991F8400A4485C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7624B4F1C991F8400A4485C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7624B521C991F8400A4485C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7624B541C991F8400A4485C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7624B591C991F8400A4485C /* FretboardAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FretboardAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7624B5D1C991F8400A4485C /* FretboardAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretboardAppTests.swift; sourceTree = "<group>"; };
+		A7624B5F1C991F8400A4485C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7624B641C991F8400A4485C /* FretboardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FretboardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7624B681C991F8400A4485C /* FretboardAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretboardAppUITests.swift; sourceTree = "<group>"; };
+		A7624B6A1C991F8400A4485C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7624B421C991F8400A4485C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7624B561C991F8400A4485C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7624B611C991F8400A4485C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7624B3C1C991F8400A4485C = {
+			isa = PBXGroup;
+			children = (
+				A7624B471C991F8400A4485C /* FretboardApp */,
+				A7624B5C1C991F8400A4485C /* FretboardAppTests */,
+				A7624B671C991F8400A4485C /* FretboardAppUITests */,
+				A7624B461C991F8400A4485C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7624B461C991F8400A4485C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7624B451C991F8400A4485C /* FretboardApp.app */,
+				A7624B591C991F8400A4485C /* FretboardAppTests.xctest */,
+				A7624B641C991F8400A4485C /* FretboardAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7624B471C991F8400A4485C /* FretboardApp */ = {
+			isa = PBXGroup;
+			children = (
+				A7624B481C991F8400A4485C /* AppDelegate.swift */,
+				A7624B4A1C991F8400A4485C /* ViewController.swift */,
+				A7624B4C1C991F8400A4485C /* Main.storyboard */,
+				A7624B4F1C991F8400A4485C /* Assets.xcassets */,
+				A7624B511C991F8400A4485C /* LaunchScreen.storyboard */,
+				A7624B541C991F8400A4485C /* Info.plist */,
+			);
+			path = FretboardApp;
+			sourceTree = "<group>";
+		};
+		A7624B5C1C991F8400A4485C /* FretboardAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7624B5D1C991F8400A4485C /* FretboardAppTests.swift */,
+				A7624B5F1C991F8400A4485C /* Info.plist */,
+			);
+			path = FretboardAppTests;
+			sourceTree = "<group>";
+		};
+		A7624B671C991F8400A4485C /* FretboardAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7624B681C991F8400A4485C /* FretboardAppUITests.swift */,
+				A7624B6A1C991F8400A4485C /* Info.plist */,
+			);
+			path = FretboardAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7624B441C991F8400A4485C /* FretboardApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7624B6D1C991F8400A4485C /* Build configuration list for PBXNativeTarget "FretboardApp" */;
+			buildPhases = (
+				A7624B411C991F8400A4485C /* Sources */,
+				A7624B421C991F8400A4485C /* Frameworks */,
+				A7624B431C991F8400A4485C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FretboardApp;
+			productName = FretboardApp;
+			productReference = A7624B451C991F8400A4485C /* FretboardApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7624B581C991F8400A4485C /* FretboardAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7624B701C991F8400A4485C /* Build configuration list for PBXNativeTarget "FretboardAppTests" */;
+			buildPhases = (
+				A7624B551C991F8400A4485C /* Sources */,
+				A7624B561C991F8400A4485C /* Frameworks */,
+				A7624B571C991F8400A4485C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7624B5B1C991F8400A4485C /* PBXTargetDependency */,
+			);
+			name = FretboardAppTests;
+			productName = FretboardAppTests;
+			productReference = A7624B591C991F8400A4485C /* FretboardAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7624B631C991F8400A4485C /* FretboardAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7624B731C991F8400A4485C /* Build configuration list for PBXNativeTarget "FretboardAppUITests" */;
+			buildPhases = (
+				A7624B601C991F8400A4485C /* Sources */,
+				A7624B611C991F8400A4485C /* Frameworks */,
+				A7624B621C991F8400A4485C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7624B661C991F8400A4485C /* PBXTargetDependency */,
+			);
+			name = FretboardAppUITests;
+			productName = FretboardAppUITests;
+			productReference = A7624B641C991F8400A4485C /* FretboardAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7624B3D1C991F8400A4485C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jordan Sookikian";
+				TargetAttributes = {
+					A7624B441C991F8400A4485C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = ETT7ZGE333;
+					};
+					A7624B581C991F8400A4485C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = ETT7ZGE333;
+						TestTargetID = A7624B441C991F8400A4485C;
+					};
+					A7624B631C991F8400A4485C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = ETT7ZGE333;
+						TestTargetID = A7624B441C991F8400A4485C;
+					};
+				};
+			};
+			buildConfigurationList = A7624B401C991F8400A4485C /* Build configuration list for PBXProject "FretboardApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7624B3C1C991F8400A4485C;
+			productRefGroup = A7624B461C991F8400A4485C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7624B441C991F8400A4485C /* FretboardApp */,
+				A7624B581C991F8400A4485C /* FretboardAppTests */,
+				A7624B631C991F8400A4485C /* FretboardAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7624B431C991F8400A4485C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7624B531C991F8400A4485C /* LaunchScreen.storyboard in Resources */,
+				A7624B501C991F8400A4485C /* Assets.xcassets in Resources */,
+				A7624B4E1C991F8400A4485C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7624B571C991F8400A4485C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7624B621C991F8400A4485C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7624B411C991F8400A4485C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7624B4B1C991F8400A4485C /* ViewController.swift in Sources */,
+				A7624B491C991F8400A4485C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7624B551C991F8400A4485C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7624B5E1C991F8400A4485C /* FretboardAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7624B601C991F8400A4485C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7624B691C991F8400A4485C /* FretboardAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7624B5B1C991F8400A4485C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7624B441C991F8400A4485C /* FretboardApp */;
+			targetProxy = A7624B5A1C991F8400A4485C /* PBXContainerItemProxy */;
+		};
+		A7624B661C991F8400A4485C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7624B441C991F8400A4485C /* FretboardApp */;
+			targetProxy = A7624B651C991F8400A4485C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7624B4C1C991F8400A4485C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7624B4D1C991F8400A4485C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7624B511C991F8400A4485C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7624B521C991F8400A4485C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7624B6B1C991F8400A4485C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7624B6C1C991F8400A4485C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7624B6E1C991F8400A4485C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FretboardApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jsookikian.FretboardApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7624B6F1C991F8400A4485C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FretboardApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jsookikian.FretboardApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7624B711C991F8400A4485C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FretboardAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jsookikian.FretboardAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FretboardApp.app/FretboardApp";
+			};
+			name = Debug;
+		};
+		A7624B721C991F8400A4485C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FretboardAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jsookikian.FretboardAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FretboardApp.app/FretboardApp";
+			};
+			name = Release;
+		};
+		A7624B741C991F8400A4485C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FretboardAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jsookikian.FretboardAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FretboardApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A7624B751C991F8400A4485C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FretboardAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jsookikian.FretboardAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FretboardApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7624B401C991F8400A4485C /* Build configuration list for PBXProject "FretboardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7624B6B1C991F8400A4485C /* Debug */,
+				A7624B6C1C991F8400A4485C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7624B6D1C991F8400A4485C /* Build configuration list for PBXNativeTarget "FretboardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7624B6E1C991F8400A4485C /* Debug */,
+				A7624B6F1C991F8400A4485C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7624B701C991F8400A4485C /* Build configuration list for PBXNativeTarget "FretboardAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7624B711C991F8400A4485C /* Debug */,
+				A7624B721C991F8400A4485C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7624B731C991F8400A4485C /* Build configuration list for PBXNativeTarget "FretboardAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7624B741C991F8400A4485C /* Debug */,
+				A7624B751C991F8400A4485C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7624B3D1C991F8400A4485C /* Project object */;
+}
