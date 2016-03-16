@@ -14,6 +14,10 @@
 		A7624B531C991F8400A4485C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7624B511C991F8400A4485C /* LaunchScreen.storyboard */; };
 		A7624B5E1C991F8400A4485C /* FretboardAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7624B5D1C991F8400A4485C /* FretboardAppTests.swift */; };
 		A7624B691C991F8400A4485C /* FretboardAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7624B681C991F8400A4485C /* FretboardAppUITests.swift */; };
+		A7624B771C99224D00A4485C /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7624B761C99224D00A4485C /* Note.swift */; };
+		A7624B791C99226C00A4485C /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7624B781C99226C00A4485C /* Music.swift */; };
+		A7624B7D1C9925D300A4485C /* Scales.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7624B7C1C9925D300A4485C /* Scales.swift */; };
+		A7624B7F1C99275800A4485C /* Chords.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7624B7E1C99275800A4485C /* Chords.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		A7624B641C991F8400A4485C /* FretboardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FretboardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7624B681C991F8400A4485C /* FretboardAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretboardAppUITests.swift; sourceTree = "<group>"; };
 		A7624B6A1C991F8400A4485C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7624B761C99224D00A4485C /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		A7624B781C99226C00A4485C /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		A7624B7C1C9925D300A4485C /* Scales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scales.swift; sourceTree = "<group>"; };
+		A7624B7E1C99275800A4485C /* Chords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chords.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				A7624B481C991F8400A4485C /* AppDelegate.swift */,
 				A7624B4A1C991F8400A4485C /* ViewController.swift */,
 				A7624B4C1C991F8400A4485C /* Main.storyboard */,
+				A7624B761C99224D00A4485C /* Note.swift */,
+				A7624B7C1C9925D300A4485C /* Scales.swift */,
+				A7624B7E1C99275800A4485C /* Chords.swift */,
+				A7624B781C99226C00A4485C /* Music.swift */,
 				A7624B4F1C991F8400A4485C /* Assets.xcassets */,
 				A7624B511C991F8400A4485C /* LaunchScreen.storyboard */,
 				A7624B541C991F8400A4485C /* Info.plist */,
@@ -261,6 +273,10 @@
 			files = (
 				A7624B4B1C991F8400A4485C /* ViewController.swift in Sources */,
 				A7624B491C991F8400A4485C /* AppDelegate.swift in Sources */,
+				A7624B7F1C99275800A4485C /* Chords.swift in Sources */,
+				A7624B771C99224D00A4485C /* Note.swift in Sources */,
+				A7624B791C99226C00A4485C /* Music.swift in Sources */,
+				A7624B7D1C9925D300A4485C /* Scales.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

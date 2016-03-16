@@ -8,18 +8,60 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelegate {
+    @IBOutlet weak var chordPicker: UIPickerView!
+    
+    let pickerDataSource = ["A", "A♯/B♭", "B", "C", "C♯/D♭",
+        "D",
+        "D♯/E♭",
+        "E",
+        "F",
+        "F♯/G♭",
+        "G",
+        "G♯/A♭"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.chordPicker.dataSource = self
+        self.chordPicker.delegate = self
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    let scale = Scales()
+    let chord = Chords()
+    
+    @IBOutlet weak var chordDisplay: UILabel!
+
+    @IBOutlet weak var ChordNames: UILabel!
+    
+    
+
+  
+    
+    
+    func outPutChord(root: String) {
+        let newChord = chord.GetPositionOneChord(root)
+        chordDisplay.text! = ""
+        for note in newChord {
+            chordDisplay.text! += note + " "
+        }
+        
     }
-
-
+    
+    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int)
+    {
+        outPutChord(pickerDataSource[row])
+    }
+    
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return pickerDataSource.count;
+    }
+    
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
+        return pickerDataSource[row]
+    }
 }
 
